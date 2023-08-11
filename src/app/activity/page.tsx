@@ -1,5 +1,3 @@
-import { MenuBook } from '@mui/icons-material';
-
 function NormalLink({
   href,
   children,
@@ -23,11 +21,6 @@ function NormalLink({
 export default function Activity() {
   return (
     <div>
-      <h1 className="text-center text-5xl font-bold text-gv-orange2">
-        <MenuBook className="mr-2 pb-1 text-5xl text-gv-orange1" />
-        Activity
-      </h1>
-
       <div className="divider" />
 
       <div className="mt-16">
@@ -164,7 +157,10 @@ export default function Activity() {
               <td>05</td>
               <td>
                 <p>
-                  <NormalLink href="https://2023.eurosys.org/index.html">
+                  <NormalLink
+                    href="https://2023.eurosys.org/index.html"
+                    className="mr-2"
+                  >
                     EuroSys 2023 @ Rome, Italy.
                   </NormalLink>
                   Poster Presentation.
@@ -223,10 +219,7 @@ export default function Activity() {
               <td>2022.09-2022.11</td>
               <td>
                 Three months internship at
-                <NormalLink
-                  href="https://about.mercari.com/"
-                  className="ml-2 mr-2"
-                >
+                <NormalLink href="https://about.mercari.com/" className="ml-2">
                   Mercari, Inc.
                 </NormalLink>
                 . Security.
@@ -236,7 +229,7 @@ export default function Activity() {
               <td>2022.08</td>
               <td>
                 Three weeks internship at
-                <NormalLink href="https://hatena.co.jp/" className="ml-2 mr-2">
+                <NormalLink href="https://hatena.co.jp/" className="ml-2">
                   Hatena Co., Ltd.
                 </NormalLink>
                 . Development of
