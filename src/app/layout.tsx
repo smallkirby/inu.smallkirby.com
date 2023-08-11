@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen bg-gv-bg0 text-gv-fg0">
         <Header />
-        {children}
+        <div className="mx-auto px-2 py-8 md:w-2/3">{children}</div>
       </body>
     </html>
   );

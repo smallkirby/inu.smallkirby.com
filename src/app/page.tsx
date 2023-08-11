@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-2 md:p-24">
+    <main className="flex flex-col items-center justify-between">
       <div className="hero">
         <div className="hero-content flex flex-col text-center">
           <Image
