@@ -265,6 +265,97 @@ export default function Activity() {
           </tbody>
         </div>
       </div>
+
+      <div className="divider" />
+
+      <div className="mt-16">
+        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+          <span className="rounded-md">🔐</span>
+          Security
+        </h2>
+        <div className="table table-lg mt-4">
+          <thead>
+            <tr>
+              <th className="w-20">Date</th>
+              <th>Contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover">
+              <td>2023.08</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://www.ipa.go.jp/jinzai/security-camp/2023/zenkoku/index.html"
+                    className="mr-2"
+                  >
+                    IPAセキュリティ・キャンプ全国大会2023.
+                  </NormalLink>
+                  C2講師
+                  <NormalLink
+                    href="https://www.ipa.go.jp/jinzai/security-camp/2023/zenkoku/program_list_cd.html"
+                    className="ml-2"
+                  >
+                    (手を動かして理解するLinux Kernel Exploit)
+                  </NormalLink>
+                </p>
+                <p>
+                  <NormalLink href="https://github.com/smallkirby/seccamp23c2-assets">
+                    Assets & Slides.
+                  </NormalLink>
+                </p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2021.10</td>
+              <td>
+                <p>
+                  <NormalLink href="https://ctf.tsg.ne.jp/" className="mr-2">
+                    TSG CTF 2021.
+                  </NormalLink>
+                  Challenge Author (pwn).
+                </p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2020.10</td>
+              <td>
+                <p>
+                  <NormalLink href="https://ctf.tsg.ne.jp/" className="mr-2">
+                    TSG CTF 2020.
+                  </NormalLink>
+                  Challenge Author (pwn).
+                </p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2019.08</td>
+              <td>
+                <p>
+                  <NormalLink href="https://codeblue.jp/2019/" className="mr-2">
+                    CODE BLUE 2019 @ TOKYO.
+                  </NormalLink>
+                  Student Staff.
+                </p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2019.08</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://www.ipa.go.jp/jinzai/security-camp/2023/zenkoku/index.html"
+                    className="mr-2"
+                  >
+                    IPAセキュリティ・キャンプ全国大会2019.
+                  </NormalLink>
+                  Zトラック修了
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </div>
+      </div>
     </div>
   );
 }
