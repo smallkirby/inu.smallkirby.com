@@ -21,25 +21,21 @@ function NormalLink({
 export default function Activity() {
   return (
     <div>
-      <div className="divider" />
-
-      <div className="mt-16">
+      <div className="mt-10">
         <h2 className="card-title text-4xl font-bold text-gv-aqua2">
           <span className="rounded-md">🎓</span>
           Education
         </h2>
-        <div className="table table-lg mt-4">
+        <table className="table table-lg mt-4">
           <thead>
             <tr>
-              <th className="w-8">Year</th>
-              <th className="w-4">Month</th>
+              <th>Date</th>
               <th>Contents</th>
             </tr>
           </thead>
           <tbody>
             <tr className="hover">
-              <td>2022</td>
-              <td>04</td>
+              <td>2022.04</td>
               <td>
                 Enrolled in Master&apos;s program in
                 <NormalLink
@@ -52,8 +48,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2022</td>
-              <td>03</td>
+              <td>2022.03</td>
               <td>
                 Graduated from Bachelor&apos;s program in
                 <NormalLink
@@ -66,8 +61,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2020</td>
-              <td>04</td>
+              <td>2020.04</td>
               <td>
                 Enrolled in Bachelor&apos;s program in
                 <NormalLink
@@ -80,8 +74,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2020</td>
-              <td>03</td>
+              <td>2020.03</td>
               <td>
                 Graduated from
                 <NormalLink
@@ -94,8 +87,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2018</td>
-              <td>04</td>
+              <td>2018.04</td>
               <td>
                 Enrolled in
                 <NormalLink
@@ -108,12 +100,11 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2017</td>
-              <td>03</td>
+              <td>2017.03</td>
               <td>Graduated from Asaka High School, Fukushima Prefecture.</td>
             </tr>
           </tbody>
-        </div>
+        </table>
       </div>
 
       <div className="divider" />
@@ -123,18 +114,16 @@ export default function Activity() {
           <span className="rounded-md">🧪</span>
           Research
         </h2>
-        <div className="table table-lg mt-4">
+        <table className="table table-lg mt-4">
           <thead>
             <tr>
-              <th className="w-20">Year</th>
-              <th className="w-20">Month</th>
+              <th>Date</th>
               <th>Contents</th>
             </tr>
           </thead>
           <tbody>
             <tr className="hover">
-              <td>2023</td>
-              <td>08</td>
+              <td>2023.08</td>
               <td>
                 <p>
                   <NormalLink href="https://sites.google.com/site/swoppweb/">
@@ -153,8 +142,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2023</td>
-              <td>05</td>
+              <td>2023.05</td>
               <td>
                 <p>
                   <NormalLink
@@ -177,7 +165,7 @@ export default function Activity() {
               </td>
             </tr>
           </tbody>
-        </div>
+        </table>
       </div>
 
       <div className="divider" />
@@ -187,10 +175,10 @@ export default function Activity() {
           <span className="rounded-md">👩‍💻</span>
           Internship
         </h2>
-        <div className="table table-lg mt-4">
+        <table className="table table-lg mt-4">
           <thead>
             <tr>
-              <th className="w-20">Period</th>
+              <th>Period</th>
               <th>Contents</th>
             </tr>
           </thead>
@@ -263,7 +251,7 @@ export default function Activity() {
               </td>
             </tr>
           </tbody>
-        </div>
+        </table>
       </div>
 
       <div className="divider" />
@@ -273,7 +261,7 @@ export default function Activity() {
           <span className="rounded-md">🔐</span>
           Security
         </h2>
-        <div className="table table-lg mt-4">
+        <table className="table table-lg mt-4">
           <thead>
             <tr>
               <th className="w-20">Date</th>
@@ -354,7 +342,70 @@ export default function Activity() {
               </td>
             </tr>
           </tbody>
-        </div>
+        </table>
+      </div>
+
+      <div className="divider" />
+
+      <div className="mt-16">
+        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+          <span className="rounded-md">✍️</span>
+          Writings
+        </h2>
+        <table className="table table-lg mt-4">
+          <thead>
+            <tr>
+              <th className="w-20">Date</th>
+              <th>Contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover">
+              <td>2022.11</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://engineering.mercari.com/en/blog/entry/20221215-supplychain-security-reevaluation/"
+                    className="mr-2"
+                  >
+                    Supply-Chain Security: Evaluation of Threats and
+                    Mitigations.
+                  </NormalLink>
+                </p>
+                <p>Mercari Engineering Blog.</p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2022.10</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://blog.flatt.tech/entry/grpc-web_dogfooding"
+                    className="mr-2"
+                  >
+                    セキュリティ企業における開発とドッグフーディング -
+                    gRPC-web採用プロダクトの脆弱性診断を効率的に行えるようになるまで
+                  </NormalLink>
+                </p>
+                <p>Flatt Security Blog.</p>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2022.3</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://blog.flatt.tech/entry/ble_security"
+                    className="mr-2"
+                  >
+                    Bluetooth通信実装のセキュリティ観点を4ステップ + 1で理解する
+                  </NormalLink>
+                </p>
+                <p>Flatt Security Blog.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   );
