@@ -1,5 +1,5 @@
 import { BreadcrumbType } from '@/types/breadcrumb';
-import { MenuBook } from '@mui/icons-material';
+import { Link, MenuBook } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
 
 export const breadCrumbList: BreadcrumbType[] = [
@@ -14,5 +14,11 @@ export const breadCrumbList: BreadcrumbType[] = [
     label: 'Activity',
     href: '/activity',
     icon: <MenuBook />,
+  },
+  {
+    id: 'link',
+    label: 'Links',
+    href: '/link',
+    icon: <Link />,
   },
 ];

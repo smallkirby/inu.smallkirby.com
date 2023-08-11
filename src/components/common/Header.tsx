@@ -1,6 +1,6 @@
 'use client';
 
-import { MenuBook } from '@mui/icons-material';
+import { Link, MenuBook } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
 import Breadcrumb from '@/components/nav/Breadcrumb';
 
@@ -24,6 +24,7 @@ export default function Header() {
         <div className="flex w-full justify-end">
           <IconButton icon={<HomeIcon />} link="/" />
           <IconButton icon={<MenuBook />} link="/activity" />
+          <IconButton icon={<Link />} link="link" />
         </div>
       </div>
     </header>
