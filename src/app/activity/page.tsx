@@ -21,8 +21,8 @@ function NormalLink({
 export default function Activity() {
   return (
     <div>
-      <div className="mt-10">
-        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+      <div className="mt-4">
+        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
           <span className="rounded-md">🎓</span>
           Education
         </h2>
@@ -110,7 +110,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
           <span className="rounded-md">🧪</span>
           Research
         </h2>
@@ -171,7 +171,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
           <span className="rounded-md">👩‍💻</span>
           Internship
         </h2>
@@ -257,7 +257,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
           <span className="rounded-md">🔐</span>
           Security
         </h2>
@@ -348,7 +348,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-4xl font-bold text-gv-aqua2">
+        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
           <span className="rounded-md">✍️</span>
           Writings
         </h2>

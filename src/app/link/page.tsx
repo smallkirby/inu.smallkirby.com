@@ -11,7 +11,7 @@ export default function LinkPage() {
   return (
     <div>
       <div>
-        <h2 className="text-4xl font-bold text-gv-aqua2">
+        <h2 className="text-3xl font-bold text-gv-aqua2">
           <span className="mr-3 rounded-md">🖥️</span>
           Tech
         </h2>
@@ -28,7 +28,7 @@ export default function LinkPage() {
       <div className="divider" />
 
       <div className="mt-8">
-        <h2 className="text-4xl font-bold text-gv-aqua2">
+        <h2 className="text-3xl font-bold text-gv-aqua2">
           <span className="mr-3 rounded-md">🌎</span>
           SNS
         </h2>
@@ -43,7 +43,7 @@ export default function LinkPage() {
             title="Bluesky"
             href="https://bsky.app/profile/smallkirby.bsky.social"
             account="@smallkirby.bsky.social"
-            img={<CloudIcon className="text-4xl text-gv-blue1" />}
+            img={<CloudIcon className="text-3xl text-gv-blue1" />}
           />
           <LinkCard
             title="Misskey"
