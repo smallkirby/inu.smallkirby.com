@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.configPath": "prettierrc.js",
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "editor.rulers": [120]
+}
