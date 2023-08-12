@@ -18,14 +18,20 @@ function NormalLink({
   );
 }
 
+function Head({ title, emoji }: { title: string; emoji: string }) {
+  return (
+    <h2 className="text-2xl font-bold text-gv-aqua2">
+      <span className="mr-2 rounded-md">{emoji}</span>
+      {title}
+    </h2>
+  );
+}
+
 export default function Activity() {
   return (
     <div>
       <div className="mt-4">
-        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
-          <span className="rounded-md">🎓</span>
-          Education
-        </h2>
+        <Head title="Education" emoji="🎓" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
@@ -110,10 +116,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
-          <span className="rounded-md">🧪</span>
-          Research
-        </h2>
+        <Head title="Research" emoji="🧪" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
@@ -171,10 +174,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
-          <span className="rounded-md">👩‍💻</span>
-          Internship
-        </h2>
+        <Head title="Internship" emoji="👩‍💻" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
@@ -257,10 +257,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
-          <span className="rounded-md">🔐</span>
-          Security
-        </h2>
+        <Head title="Security" emoji="🔐" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
@@ -348,10 +345,7 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
-        <h2 className="card-title text-3xl font-bold text-gv-aqua2">
-          <span className="rounded-md">✍️</span>
-          Writings
-        </h2>
+        <Head title="Writings" emoji="✍️" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
