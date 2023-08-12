@@ -11,16 +11,16 @@ interface LinkCardProps {
 export default function LinkCard(props: LinkCardProps) {
   return (
     <div
-      className="btn my-3 flex h-32 w-full items-center rounded-xl
-          bg-gv-bg0 normal-case text-gv-fg0 shadow-xl duration-300 hover:bg-gv-bg1 md:m-3 md:w-[23rem]"
+      className="btn my-3 flex h-24 w-full items-center rounded-xl
+          bg-gv-bg0 normal-case text-gv-fg0 shadow-xl duration-300 hover:bg-gv-bg1 md:m-1 md:w-[23rem]"
     >
-      <div className="mx-auto mr-4 w-11 flex-shrink md:w-20">
+      <div className="md:w-18 mx-auto mr-3 w-11 flex-shrink">
         {typeof props.img === 'string' ? (
           <Image
             src={props.img as string}
             alt={props.title}
-            width={55}
-            height={55}
+            width={40}
+            height={40}
             className="mx-auto"
           />
         ) : (
@@ -28,7 +28,7 @@ export default function LinkCard(props: LinkCardProps) {
         )}
       </div>
       <div className="mt-2 flex-grow text-left">
-        <h2 className="mb-2 text-2xl">{props.title}</h2>
+        <h2 className="mb-1 text-xl">{props.title}</h2>
         <a
           href={props.href}
           target="_blank"

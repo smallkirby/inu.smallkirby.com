@@ -3,7 +3,7 @@ import LinkCard from './LinkCard';
 
 function Cards({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex flex-col flex-wrap p-5 md:flex-row">{children}</div>
+    <div className="flex flex-col flex-wrap p-2 md:flex-row">{children}</div>
   );
 }
 
