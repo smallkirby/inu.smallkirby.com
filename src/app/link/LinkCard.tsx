@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import React from 'react';
 
@@ -13,6 +15,7 @@ export default function LinkCard(props: LinkCardProps) {
     <div
       className="btn my-3 flex h-24 w-full items-center rounded-xl
           bg-gv-bg0 normal-case text-gv-fg0 shadow-xl duration-300 hover:bg-gv-bg1 md:m-1 md:w-[23rem]"
+      onClick={() => window.open(props.href, '_blank')}
     >
       <div className="md:w-18 mx-auto mr-3 w-11 flex-shrink">
         {typeof props.img === 'string' ? (
