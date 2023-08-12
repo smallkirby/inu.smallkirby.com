@@ -11,10 +11,12 @@ export default function LinkPage() {
   return (
     <div>
       <div>
-        <h2 className="text-3xl font-bold text-gv-aqua2">
-          <span className="mr-3 rounded-md">🖥️</span>
-          Tech
-        </h2>
+        <div className="mb-1 border-b-[1px] border-gv-bg2 pb-4">
+          <h2 className="text-3xl font-bold text-gv-fg3">
+            <span className="mr-3 rounded-md">🖥️</span>
+            Tech
+          </h2>
+        </div>
         <Cards>
           <LinkCard
             title="GitHub"
@@ -25,13 +27,13 @@ export default function LinkPage() {
         </Cards>
       </div>
 
-      <div className="divider" />
-
       <div className="mt-8">
-        <h2 className="text-3xl font-bold text-gv-aqua2">
-          <span className="mr-3 rounded-md">🌎</span>
-          SNS
-        </h2>
+        <div className="mb-1 border-b-[1px] border-gv-bg2 pb-4">
+          <h2 className="text-3xl font-bold text-gv-fg3">
+            <span className="mr-3 rounded-md">🌎</span>
+            SNS
+          </h2>
+        </div>
         <Cards>
           <LinkCard
             title="Twitter / X"
