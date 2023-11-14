@@ -66,7 +66,7 @@ export default function About() {
                 </ul>
               </li>
               <li>Lives in Tokyo, Japan.</li>
-              <li>Interested in Linux kernl.</li>
+              <li>Interested in Linux kernel.</li>
               <li>
                 CTF at
                 <NormalLink href="https://tsg.ne.jp/" className="ml-2">
