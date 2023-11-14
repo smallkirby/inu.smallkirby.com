@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import RateReviewIcon from '@mui/icons-material/RateReview';
 
 export default function Home() {
   return (
@@ -11,8 +12,40 @@ export default function Home() {
             height={300}
             alt="smallkirby"
           />
-          <div className="text-4xl font-bold uppercase">
-            Not a human, just a dog.
+          <div className="flex">
+            <a
+              className="mr-8"
+              href="https://github.com/smallkirby"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/brands/github.svg"
+                width={30}
+                height={30}
+                alt="github"
+              ></Image>
+            </a>
+            <a
+              className="mr-8"
+              href="https://twitter.com/smallkirby"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/brands/twitter.svg"
+                width={29}
+                height={29}
+                alt="twitter"
+              ></Image>
+            </a>
+            <a
+              href="https://blog.smallkirby.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <RateReviewIcon className="h-[34px] w-[34px] text-gv-aqua1" />
+            </a>
           </div>
         </div>
       </div>
