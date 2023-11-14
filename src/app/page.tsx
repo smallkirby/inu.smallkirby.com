@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import RateReviewIcon from '@mui/icons-material/RateReview';
+import Shell from '@/components/shell/Shell';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
-      <div className="hero">
+      <div className="hero mb-4">
         <div className="hero-content flex flex-col text-center">
           <Image
             src="/smallkirby.png"
@@ -49,6 +50,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Shell />
     </main>
   );
 }
