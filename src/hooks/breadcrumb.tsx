@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 export default function useBreadcrumb() {
   const url = usePathname();
-
   const [crumbs, setCrumbs] = useState<BreadcrumbType[]>([]);
 
   useEffect(() => {

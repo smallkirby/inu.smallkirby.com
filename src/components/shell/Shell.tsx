@@ -53,30 +53,32 @@ export default function Shell() {
             <span className="md:ml-2">$ ls ~/Documents | grep secrets</span>
           </div>
           <table className="table-auto">
-            <tr>
-              <td className="text-gv-aqua1">
-                <a href="/">Home</a>
-              </td>
-              <td className="">: this page</td>
-            </tr>
-            <tr>
-              <td className="text-gv-aqua1">
-                <a href="/about">About</a>
-              </td>
-              <td className="">: basic information of smallkirby</td>
-            </tr>
-            <tr>
-              <td className="text-gv-aqua1">
-                <a href="/activity">Activity</a>
-              </td>
-              <td className="">: history and writings of smallkirby</td>
-            </tr>
-            <tr>
-              <td className="text-gv-aqua1">
-                <a href="/link">Links</a>
-              </td>
-              <td className="">: list of links</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td className="text-gv-aqua1">
+                  <a href="/">Home</a>
+                </td>
+                <td className="">: this page</td>
+              </tr>
+              <tr>
+                <td className="text-gv-aqua1">
+                  <a href="/about">About</a>
+                </td>
+                <td className="">: basic information of smallkirby</td>
+              </tr>
+              <tr>
+                <td className="text-gv-aqua1">
+                  <a href="/activity">Activity</a>
+                </td>
+                <td className="">: history and writings of smallkirby</td>
+              </tr>
+              <tr>
+                <td className="text-gv-aqua1">
+                  <a href="/link">Links</a>
+                </td>
+                <td className="">: list of links</td>
+              </tr>
+            </tbody>
           </table>
         </div>
 
