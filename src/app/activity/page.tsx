@@ -382,6 +382,13 @@ export default function Activity() {
             </tr>
           </tbody>
         </table>
+        <p className="mt-2">
+          You can see other personal writings at{' '}
+          <NormalLink href="https://blog.smallkirby.com">
+            Newbie into the Binary
+          </NormalLink>
+          .
+        </p>
       </div>
     </div>
   );

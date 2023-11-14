@@ -30,7 +30,7 @@ export default function About() {
           />
         </div>
       </div>
-      <h2 className="text-center font-serif text-3xl">smallkirby</h2>
+      <h2 className="text-center text-2xl">smallkirby</h2>
 
       <div className="mt-8 flex flex-col">
         <div className="mb-1 border-b-[1px] border-gv-bg2 pb-4">
@@ -39,7 +39,7 @@ export default function About() {
           </h2>
         </div>
         <div>
-          <div className="py-1 leading-8 md:p-4">
+          <div className="py-1 leading-8 md:py-4">
             <ul className="list-disc pl-8">
               <li>
                 Master&apos;s course student in
