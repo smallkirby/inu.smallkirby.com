@@ -1,4 +1,5 @@
 import '@/app/globals.css';
+import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 import type { Metadata } from 'next';
 
@@ -14,9 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gv-bg0 text-gv-fg0">
+      <body className="flex min-h-screen flex-col bg-gv-bg0 text-gv-fg0">
         <Header />
-        <div className="mx-auto px-2 py-8 md:w-2/3">{children}</div>
+        <div className="mx-auto mb-8 flex-1 px-2 md:w-2/3">{children}</div>
+        <Footer />
       </body>
     </html>
   );
