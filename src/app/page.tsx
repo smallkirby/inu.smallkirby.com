@@ -45,7 +45,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <RateReviewIcon className="h-[34px] w-[34px] text-gv-aqua1" />
+              <RateReviewIcon className="h-[35px] w-[35px] text-gv-aqua1" />
             </a>
           </div>
         </div>
