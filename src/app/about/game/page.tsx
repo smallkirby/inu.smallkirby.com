@@ -36,7 +36,7 @@ function GameRow({ game }: { game: Game }) {
 
 export default function GamePage() {
   return (
-    <div>
+    <div className="overflow-x-auto">
       <table className="table table-lg">
         <thead>
           <tr>
