@@ -34,11 +34,11 @@ function SiteEntry({ site }: { site: SiteData }) {
 
 export default function Sites() {
   return (
-    <div>
+    <div className="overflow-x-auto">
       <table className="table table-lg">
         <thead>
           <tr>
-            <th>Site</th>
+            <th className="w-16">Site</th>
             <th className="w-8">Source</th>
             <th>Description</th>
           </tr>

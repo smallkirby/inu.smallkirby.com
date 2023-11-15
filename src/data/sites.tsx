@@ -37,7 +37,7 @@ export const siteData: SiteData[] = [
     description: 'Task management service.',
   },
   {
-    title: 'old.smallkirby.com',
+    title: 'Old HP',
     url: 'https://old.smallkirby.com',
     source: 'https://github.com/smallkirby/smallkirby.xyz.jsx',
     description: 'My old portfolio site.',
