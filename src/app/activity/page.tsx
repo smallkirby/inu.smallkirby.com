@@ -223,13 +223,13 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2020.01-Current</td>
+              <td>2020.01-Present</td>
               <td>
                 Part-time job at
-                <NormalLink href="" className="ml-2 mr-2">
-                  ***** Security
+                <NormalLink href="https://flatt.tech/" className="ml-2 mr-2">
+                  Flatt Security Inc
                 </NormalLink>
-                . Development and ***********.
+                . Security and Development.
               </td>
             </tr>
           </tbody>
