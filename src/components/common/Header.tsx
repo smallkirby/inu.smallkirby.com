@@ -52,6 +52,11 @@ export default function Header() {
                     Links
                   </a>
                 </li>
+                <li>
+                  <a href="/sites" className="underline">
+                    Sites
+                  </a>
+                </li>
               </ul>
             </details>
           </li>
