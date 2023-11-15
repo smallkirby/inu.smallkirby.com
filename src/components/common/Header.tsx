@@ -1,6 +1,6 @@
 'use client';
 
-import { Link, MenuBook, Info } from '@mui/icons-material';
+import { Link, MenuBook, Info, Public } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
 import Breadcrumb from '@/components/nav/Breadcrumb';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -63,6 +63,7 @@ export default function Header() {
         <IconButton icon={<Info />} link="/about" />
         <IconButton icon={<MenuBook />} link="/activity" />
         <IconButton icon={<Link />} link="/link" />
+        <IconButton icon={<Public />} link="/sites" />
       </div>
     </header>
   );

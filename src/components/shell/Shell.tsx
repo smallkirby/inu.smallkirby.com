@@ -78,6 +78,12 @@ export default function Shell() {
                 </td>
                 <td className="">: list of links</td>
               </tr>
+              <tr>
+                <td className="text-gv-aqua1">
+                  <a href="/sites">Sites</a>
+                </td>
+                <td className="">: list of smallkirby&apos;s web sites</td>
+              </tr>
             </tbody>
           </table>
         </div>
