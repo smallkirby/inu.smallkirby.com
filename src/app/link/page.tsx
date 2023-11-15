@@ -1,6 +1,3 @@
-import CloudIcon from '@mui/icons-material/Cloud';
-import Image from 'next/image';
-
 export default function LinkPage() {
   return (
     <div>
