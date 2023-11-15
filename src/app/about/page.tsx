@@ -1,7 +1,16 @@
 import Image from 'next/image';
 import NormalLink from '@/components/common/NormalLink';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
-function LikeCard({ title, img }: { title: string; img: string }) {
+function LikeCard({
+  title,
+  img,
+  link,
+}: {
+  title: string;
+  img: string;
+  link?: string;
+}) {
   return (
     <div
       className="card card-compact m-2 h-52 w-full cursor-pointer bg-gv-bg0h
@@ -11,7 +20,15 @@ function LikeCard({ title, img }: { title: string; img: string }) {
         <Image src={img} alt={title} width={400} height={500} />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{title}</h2>
+        <a
+          className={link ? 'cursor-pointer text-gv-aqua1 underline' : ''}
+          href={link}
+        >
+          <h2 className="card-title">
+            {title}
+            {link && <OpenInNewIcon className="text-gv-aqua1" />}
+          </h2>
+        </a>
       </div>
     </div>
   );
@@ -89,7 +106,11 @@ export default function About() {
         </div>
         <div className="mr-4 flex flex-col md:flex-row md:flex-wrap">
           <LikeCard title="Keyboards" img="/about/corne.jpg" />
-          <LikeCard title="Game" img="/about/controller.jpg" />
+          <LikeCard
+            title="Game"
+            img="/about/controller.jpg"
+            link="/about/game"
+          />
           <LikeCard title="Dog" img="/about/dog.jpg" />
           <LikeCard title="Editor" img="/about/vscode-sc.png" />
           <LikeCard title="Color Scheme" img="/about/color-scheme.png" />
