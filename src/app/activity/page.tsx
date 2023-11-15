@@ -385,7 +385,7 @@ export default function Activity() {
         <p className="mt-2">
           You can see other personal writings at{' '}
           <NormalLink href="https://blog.smallkirby.com">
-            Newbie into the Binary
+            Newbie Dive into Binary
           </NormalLink>
           .
         </p>
