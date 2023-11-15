@@ -30,7 +30,7 @@ export const games: Game[] = [
     date: null,
   },
   {
-    title: 'Assassin\'s Creed Origins',
+    title: "Assassin's Creed Origins",
     link: 'https://ubisoft.co.jp/aco/',
     platform: 'PS4',
     clear: false,
@@ -502,7 +502,7 @@ export const games: Game[] = [
     date: null,
   },
   {
-    title: 'Marvel\'s Spider-Man',
+    title: "Marvel's Spider-Man",
     link: 'https://www.playstation.com/ja-jp/games/marvels-spider-man-remastered/',
     platform: 'PS4',
     clear: true,
