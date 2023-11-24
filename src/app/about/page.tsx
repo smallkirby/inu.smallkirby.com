@@ -12,25 +12,25 @@ function LikeCard({
   link?: string;
 }) {
   return (
-    <div
-      className="card card-compact m-2 h-52 w-full cursor-pointer bg-gv-bg0h
-            shadow-xl  duration-300 hover:bg-gv-bg0 md:w-64"
+    <a
+      className={link ? 'cursor-pointer text-gv-aqua1 underline' : ''}
+      href={link}
     >
-      <figure className="h-full w-full">
-        <Image src={img} alt={title} width={400} height={500} />
-      </figure>
-      <div className="card-body">
-        <a
-          className={link ? 'cursor-pointer text-gv-aqua1 underline' : ''}
-          href={link}
-        >
-          <h2 className="card-title">
+      <div
+        className="card-compact card m-2 h-52 w-full cursor-pointer bg-gv-bg0h
+            shadow-xl  duration-300 hover:bg-gv-bg0 md:w-64"
+      >
+        <figure className="h-full w-full">
+          <Image src={img} alt={title} width={400} height={500} />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title text-gv-aqua1 underline">
             {title}
             {link && <OpenInNewIcon className="text-gv-aqua1" />}
           </h2>
-        </a>
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -105,7 +105,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-gv-aqua2">Likes</h2>
         </div>
         <div className="mr-4 flex flex-col md:flex-row md:flex-wrap">
-          <LikeCard title="Keyboards" img="/about/corne.jpg" />
+          <LikeCard title="Keyboards" img="/about/corne.png" />
           <LikeCard
             title="Game"
             img="/about/controller.jpg"
@@ -115,6 +115,11 @@ export default function About() {
           <LikeCard title="Editor" img="/about/vscode-sc.png" />
           <LikeCard title="Color Scheme" img="/about/color-scheme.png" />
           <LikeCard title="OS" img="/about/ubuntu.jpg" />
+          <LikeCard
+            title="Programming"
+            img="/about/programming.png"
+            link="/about/programming"
+          />
         </div>
       </div>
     </div>
