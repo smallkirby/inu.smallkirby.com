@@ -32,10 +32,10 @@ export default function ProgrammingPage() {
     <div className="overflow-x-auto">
       <div className="my-4">
         <h2 className="text-2xl font-bold text-gv-aqua2">Languages</h2>
-        <table className="table table-lg mt-4">
+        <table className="table table-md mt-4 w-full">
           <thead>
             <tr>
-              <th>Lang</th>
+              <th className="w-1/3">Lang</th>
               <th>Proficiency</th>
               <th>Fav</th>
               <th>Since</th>
@@ -55,10 +55,10 @@ export default function ProgrammingPage() {
 
       <div className="my-8">
         <h2 className="text-2xl font-bold text-gv-aqua2">Web</h2>
-        <table className="table table-lg mt-4">
+        <table className="table table-md mt-4 w-full">
           <thead>
             <tr>
-              <th>Framework / Lib</th>
+              <th className="w-1/3">Framework / Lib</th>
               <th>Proficiency</th>
               <th>Fav</th>
               <th>Since</th>
@@ -78,10 +78,10 @@ export default function ProgrammingPage() {
 
       <div className="my-8">
         <h2 className="text-2xl font-bold text-gv-aqua2">Services / Hosting</h2>
-        <table className="table table-lg mt-4">
+        <table className="table table-md mt-4 w-full">
           <thead>
             <tr>
-              <th>Services / Infra etc</th>
+              <th className="w-1/3">Services / Infra etc</th>
               <th>Proficiency</th>
               <th>Fav</th>
               <th>Since</th>
