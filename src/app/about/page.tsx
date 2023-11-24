@@ -105,7 +105,11 @@ export default function About() {
           <h2 className="text-2xl font-bold text-gv-aqua2">Likes</h2>
         </div>
         <div className="mr-4 flex flex-col md:flex-row md:flex-wrap">
-          <LikeCard title="Keyboards" img="/about/corne.png" />
+          <LikeCard
+            title="Keyboards"
+            img="/about/corne.png"
+            link="/about/gadgets"
+          />
           <LikeCard
             title="Game"
             img="/about/controller.jpg"

@@ -4,6 +4,7 @@ import {
   Link,
   MenuBook,
   Public,
+  PrecisionManufacturing,
   VideogameAsset,
   Dvr,
 } from '@mui/icons-material';
@@ -37,8 +38,14 @@ export const breadCrumbList: BreadcrumbType[] = [
   {
     id: 'programming',
     label: 'Programming',
-    href: '/about/Programming',
+    href: '/about/programming',
     icon: <Dvr className="md:text-md text-xs" />,
+  },
+  {
+    id: 'gadgets',
+    label: 'Gadgets',
+    href: '/about/gadgets',
+    icon: <PrecisionManufacturing className="md:text-md text-xs" />,
   },
   {
     id: 'activity',
