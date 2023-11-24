@@ -15,3 +15,5 @@ npm dev
 
 CFPages watches the `master` branch and deploys it automatically.
 Build command is `npx next build` and `/out` directory is used as the output directory.
+
+If you want to check the release build locally, run `npx serve out`.
