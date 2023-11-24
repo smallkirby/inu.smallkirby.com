@@ -1,5 +1,5 @@
 import type { Gadget } from '@/data/gadgets';
-import { machines } from '@/data/gadgets';
+import { machines, keyboards } from '@/data/gadgets';
 
 function MachineRow({ machine }: { machine: Gadget }) {
   return (
@@ -46,6 +46,28 @@ export default function GadgetPage() {
           </thead>
           <tbody>
             {machines
+              .sort((a, b) =>
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+              )
+              .map((machine) => (
+                <MachineRow key={machine.name} machine={machine} />
+              ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="my-4">
+        <h2 className="text-2xl font-bold text-gv-aqua2">Keyboards</h2>
+        <table className="table table-md mt-4 w-full">
+          <thead>
+            <tr>
+              <th className="w-1/5">Nickname</th>
+              <th className="w-3/5">Spec</th>
+              <th className="w-1/5">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            {keyboards
               .sort((a, b) =>
                 a.since > b.since ? -1 : a.since < b.since ? 1 : 0
               )

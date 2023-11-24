@@ -73,3 +73,34 @@ export const machines: Gadget[] = [
     link: null,
   },
 ];
+
+export const keyboards: Gadget[] = [
+  {
+    name: 'corne',
+    spec: 'Corne Cherry V3',
+    since: '2021',
+    to: 'Present',
+    link: 'https://shop.yushakobo.jp/en/products/corne-cherry-v3',
+  },
+  {
+    name: 'carrot',
+    spec: 'Corne Cherry V3',
+    since: '2021',
+    to: 'Present',
+    link: 'https://shop.yushakobo.jp/en/products/corne-cherry-v3',
+  },
+  {
+    name: 'choco',
+    spec: 'Choco60 rev.2',
+    since: '2021',
+    to: '2021',
+    link: 'https://shop.yushakobo.jp/en/products/choco60-rev-2',
+  },
+  {
+    name: 'HHKB',
+    spec: 'HHKB Professional HYBRID Type-S',
+    since: '2020',
+    to: '2021',
+    link: 'https://happyhackingkb.com/jp/products/hybrid_types/',
+  },
+];
