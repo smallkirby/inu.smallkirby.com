@@ -29,7 +29,7 @@ function LanguageRow({ language }: { language: Language }) {
 
 export default function ProgrammingPage() {
   return (
-    <div>
+    <div className="overflow-x-auto">
       <div className="my-4">
         <h2 className="text-2xl font-bold text-gv-aqua2">Languages</h2>
         <table className="table table-lg mt-4">
