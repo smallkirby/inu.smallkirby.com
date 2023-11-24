@@ -18,7 +18,7 @@ function IconButton(props: { icon: React.ReactNode; link: string }) {
 export default function Header() {
   return (
     <header className="navbar">
-      <div className="w-full justify-between bg-gv-bg0 px-4">
+      <div className="w-full justify-between bg-gv-bg0 pl-2 md:px-4">
         <div>
           <Breadcrumb />
         </div>
