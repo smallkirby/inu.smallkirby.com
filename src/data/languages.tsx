@@ -92,4 +92,112 @@ export const languages: Language[] = [
     fav: null,
     since: '2022',
   },
+  {
+    name: 'Ruby',
+    proficiency: 'x',
+    fav: null,
+    since: '2021',
+  },
+];
+
+export const webs: Language[] = [
+  {
+    name: 'Next.js',
+    proficiency: null,
+    fav: 'o',
+    since: '2022',
+  },
+  {
+    name: 'Nuxt.js',
+    proficiency: 'x',
+    fav: null,
+    since: '2021',
+  },
+  {
+    name: 'Vue2',
+    proficiency: null,
+    fav: 'x',
+    since: '2021',
+  },
+  {
+    name: 'Tailwind',
+    proficiency: 'o',
+    fav: 'o',
+    since: '2021',
+  },
+  {
+    name: 'DaisyUI',
+    proficiency: null,
+    fav: null,
+    since: '2023',
+  },
+  {
+    name: 'Astro',
+    proficiency: 'x',
+    fav: 'o',
+    since: '2023',
+  },
+  {
+    name: 'Ant Design',
+    proficiency: 'x',
+    fav: 'x',
+    since: '2023',
+  },
+  {
+    name: 'React',
+    proficiency: null,
+    fav: 'o',
+    since: '2022',
+  },
+  {
+    name: 'Remix',
+    proficiency: 'x',
+    fav: null,
+    since: '2022',
+  },
+];
+
+export const services: Language[] = [
+  {
+    name: 'microCMS',
+    proficiency: null,
+    fav: 'o',
+    since: '2021',
+  },
+  {
+    name: 'Mackerel',
+    proficiency: null,
+    fav: null,
+    since: '2021',
+  },
+  {
+    name: 'Fly.io',
+    proficiency: null,
+    fav: 'o',
+    since: '2021',
+  },
+  {
+    name: 'Cloudflare Pages / Workers',
+    proficiency: null,
+    fav: '!',
+    since: '2021',
+  },
+  {
+    name: 'Vercel',
+    proficiency: 'x',
+    fav: null,
+    since: '2021',
+  },
+  {
+    name: 'Firebase',
+    proficiency: null,
+    fav: null,
+    since: '2020',
+  },
+  {
+    name: 'Algolia',
+    proficiency: 'x',
+    fav: 'o',
+    since: '2022',
+  },
 ];

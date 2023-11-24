@@ -1,5 +1,5 @@
 import type { Language, Level } from '@/data/languages';
-import { languages } from '@/data/languages';
+import { languages, webs, services } from '@/data/languages';
 import { Favorite, Grade, ThumbDownAlt } from '@mui/icons-material';
 
 const getIcon = (lv: Level) => {
@@ -30,7 +30,7 @@ function LanguageRow({ language }: { language: Language }) {
 export default function ProgrammingPage() {
   return (
     <div>
-      <div className="mt-4">
+      <div className="my-4">
         <h2 className="text-2xl font-bold text-gv-aqua2">Languages</h2>
         <table className="table table-lg mt-4">
           <thead>
@@ -43,6 +43,52 @@ export default function ProgrammingPage() {
           </thead>
           <tbody>
             {languages
+              .sort((a, b) =>
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+              )
+              .map((language) => (
+                <LanguageRow key={language.name} language={language} />
+              ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="my-8">
+        <h2 className="text-2xl font-bold text-gv-aqua2">Web</h2>
+        <table className="table table-lg mt-4">
+          <thead>
+            <tr>
+              <th>Framework / Lib</th>
+              <th>Proficiency</th>
+              <th>Fav</th>
+              <th>Since</th>
+            </tr>
+          </thead>
+          <tbody>
+            {webs
+              .sort((a, b) =>
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+              )
+              .map((language) => (
+                <LanguageRow key={language.name} language={language} />
+              ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="my-8">
+        <h2 className="text-2xl font-bold text-gv-aqua2">Services / Hosting</h2>
+        <table className="table table-lg mt-4">
+          <thead>
+            <tr>
+              <th>Services / Infra etc</th>
+              <th>Proficiency</th>
+              <th>Fav</th>
+              <th>Since</th>
+            </tr>
+          </thead>
+          <tbody>
+            {services
               .sort((a, b) =>
                 a.since > b.since ? -1 : a.since < b.since ? 1 : 0
               )
