@@ -155,6 +155,18 @@ export const webs: Language[] = [
     fav: null,
     since: '2022',
   },
+  {
+    name: 'Docsy',
+    proficiency: 'o',
+    fav: 'o',
+    since: '2023',
+  },
+  {
+    name: 'Hugo',
+    proficiency: null,
+    fav: '!',
+    since: '2023',
+  },
 ];
 
 export const services: Language[] = [
@@ -199,5 +211,17 @@ export const services: Language[] = [
     proficiency: 'x',
     fav: 'o',
     since: '2022',
+  },
+  {
+    name: 'Slack Bot',
+    proficiency: 'o',
+    fav: null,
+    since: '2021',
+  },
+  {
+    name: 'Cloudflare R2',
+    proficiency: null,
+    fav: '!',
+    since: '2023',
   },
 ];
