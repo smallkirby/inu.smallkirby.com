@@ -37,6 +37,17 @@ function GameRow({ game }: { game: Game }) {
 export default function GamePage() {
   return (
     <div className="overflow-x-auto">
+      <div className="mb-2 text-sm text-gv-bg3">
+        <span className="mr-2 font-bold">Legend:</span>
+        <span className="mr-2">
+          <Favorite className="text-xs text-gv-yellow1" />
+          =like
+        </span>
+        <span>
+          <Grade className="text-xs text-gv-orange2" />
+          =love
+        </span>
+      </div>
       <table className="table table-lg">
         <thead>
           <tr>
