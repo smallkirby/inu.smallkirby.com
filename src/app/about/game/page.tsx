@@ -22,9 +22,9 @@ function GameRow({ game }: { game: Game }) {
       <td>{game.clear ? 'o' : ''}</td>
       <td>
         {game.fav === 'o' ? (
-          <Favorite className="text-md text-gv-yellow1" />
+          <Favorite className="text-md text-gv-blue1" />
         ) : game.fav === '!' ? (
-          <Grade className="text-gv-orange2" />
+          <Grade className="text-gv-purple1" />
         ) : (
           <span />
         )}
@@ -40,11 +40,11 @@ export default function GamePage() {
       <div className="mb-2 text-sm text-gv-bg3">
         <span className="mr-2 font-bold">Legend:</span>
         <span className="mr-2">
-          <Favorite className="text-xs text-gv-yellow1" />
+          <Favorite className="text-xs text-gv-blue1" />
           =like
         </span>
         <span>
-          <Grade className="text-xs text-gv-orange2" />
+          <Grade className="text-xs text-gv-purple1" />
           =love
         </span>
       </div>
