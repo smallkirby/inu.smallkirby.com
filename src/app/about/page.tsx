@@ -17,7 +17,7 @@ function LikeCard({
       href={link}
     >
       <div
-        className="card-compact card m-2 h-52 w-full cursor-pointer bg-gv-bg0h
+        className="card card-compact m-2 h-52 w-full cursor-pointer bg-gv-bg0h
             shadow-xl  duration-300 hover:bg-gv-bg0 md:w-64"
       >
         <figure className="h-full w-full">
