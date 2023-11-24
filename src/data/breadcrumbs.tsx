@@ -5,6 +5,7 @@ import {
   MenuBook,
   Public,
   VideogameAsset,
+  Dvr,
 } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
 
@@ -26,6 +27,18 @@ export const breadCrumbList: BreadcrumbType[] = [
     label: 'Game',
     href: '/about/games',
     icon: <VideogameAsset />,
+  },
+  {
+    id: 'game',
+    label: 'Game',
+    href: '/about/games',
+    icon: <VideogameAsset />,
+  },
+  {
+    id: 'programming',
+    label: 'Programming',
+    href: '/about/Programming',
+    icon: <Dvr />,
   },
   {
     id: 'activity',
