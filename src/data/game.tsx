@@ -1,5 +1,6 @@
 type Fav = null | 'o' | '!';
 type Platform =
+  | 'SP'
   | 'switch'
   | 'PS4'
   | 'GC'
@@ -21,6 +22,22 @@ export type Game = {
 };
 
 export const games: Game[] = [
+  {
+    title: 'Hogwarts Legacy',
+    link: 'https://www.hogwartslegacy.com/en-us',
+    platform: 'PS4',
+    clear: false,
+    fav: null,
+    date: null,
+  },
+  {
+    title: 'レスレリアーナのアトリエ - 忘れられた錬金術と極夜の解放者',
+    link: 'https://www.gamecity.ne.jp/atelier/resleriana/',
+    platform: 'SP',
+    clear: false,
+    fav: null,
+    date: null,
+  },
   {
     title: 'Genshin Impact',
     link: 'https://genshin.hoyoverse.com/en/',
