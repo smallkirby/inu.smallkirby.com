@@ -10,6 +10,19 @@ export type Gadget = {
 
 export const machines: Gadget[] = [
   {
+    name: 'Chrobo',
+    spec: stripIndent`
+      Fujitsu FMV Chromebook WM1/F3.
+      11th Gen Intel(R) Core(TM) i3-1115G4 x 2.
+      Intel(R) UHD Graphics.
+      Micron DDR4 MT40A512M16TB-062E:R 4GB.
+      eMMC 5.1 64GB.
+    `,
+    since: '2023',
+    to: 'Present',
+    link: null,
+  },
+  {
     name: 'Bel',
     spec: stripIndent`
       Homebuilt. Ubuntu.
