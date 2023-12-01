@@ -106,7 +106,7 @@ export default function About() {
         </div>
         <div className="mr-4 flex flex-col md:flex-row md:flex-wrap">
           <LikeCard
-            title="Keyboards"
+            title="Gadgets"
             img="/about/corne.png"
             link="/about/gadgets"
           />

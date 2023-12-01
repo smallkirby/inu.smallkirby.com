@@ -31,6 +31,32 @@ function MachineRow({ machine }: { machine: Gadget }) {
   );
 }
 
+function KeyboardRow({ keyboard }: { keyboard: Gadget }) {
+  return (
+    <tr className="hover">
+      <td>
+        <span>{keyboard.name}</span>
+      </td>
+      <td>
+        {keyboard.link ? (
+          <a
+            className="text-gv-aqua1 underline"
+            target="_blank"
+            href={keyboard.link}
+          >
+            {keyboard.spec}
+          </a>
+        ) : (
+          <span>{keyboard.link}</span>
+        )}
+      </td>
+      <td>
+        {keyboard.since} - {keyboard.to}
+      </td>
+    </tr>
+  );
+}
+
 export default function GadgetPage() {
   return (
     <div className="overflow-x-auto">
@@ -72,7 +98,7 @@ export default function GadgetPage() {
                 a.since > b.since ? -1 : a.since < b.since ? 1 : 0
               )
               .map((machine) => (
-                <MachineRow key={machine.name} machine={machine} />
+                <KeyboardRow key={machine.name} keyboard={machine} />
               ))}
           </tbody>
         </table>
