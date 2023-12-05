@@ -26,7 +26,7 @@ export const games: Game[] = [
     title: 'Hogwarts Legacy',
     link: 'https://www.hogwartslegacy.com/en-us',
     platform: 'PS4',
-    clear: false,
+    clear: true,
     fav: null,
     date: null,
   },
