@@ -139,8 +139,8 @@ export const webs: Language[] = [
   },
   {
     name: 'Ant Design',
-    proficiency: 'x',
-    fav: 'x',
+    proficiency: null,
+    fav: 'o',
     since: '2023',
   },
   {
