@@ -66,7 +66,7 @@ export const games: Game[] = [
     title: 'Super Mario Bros. Wonder',
     link: 'https://supermariobroswonder.nintendo.com/',
     platform: 'switch',
-    clear: false,
+    clear: true,
     fav: null,
     date: null,
   },
