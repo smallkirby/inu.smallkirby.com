@@ -186,8 +186,8 @@ export const games: Game[] = [
     title: 'Horizon Forbidden West',
     link: 'https://www.playstation.com/ja-jp/games/horizon-forbidden-west/',
     platform: 'PS4',
-    clear: false,
-    fav: null,
+    clear: true,
+    fav: '!',
     date: null,
   },
   {
