@@ -22,6 +22,14 @@ export type Game = {
 };
 
 export const games: Game[] = [
+    {
+    title: 'NieR Replicant ver.1.22474487139...',
+    link: 'https://www.jp.square-enix.com/nierreplicantv1p2/',
+    platform: 'PS4',
+    clear: false,
+    fav: null,
+    date: null,
+  },
   {
     title: 'Hogwarts Legacy',
     link: 'https://www.hogwartslegacy.com/en-us',
