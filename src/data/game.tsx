@@ -22,7 +22,7 @@ export type Game = {
 };
 
 export const games: Game[] = [
-    {
+  {
     title: 'NieR Replicant ver.1.22474487139...',
     link: 'https://www.jp.square-enix.com/nierreplicantv1p2/',
     platform: 'PS4',
