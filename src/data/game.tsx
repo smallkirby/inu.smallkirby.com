@@ -23,6 +23,14 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Ghost of Tsushima Director’s Cut',
+    link: 'https://store.playstation.com/ja-jp/product/JP9000-PPSA03209_00-GHOSTDIRECTORPS5',
+    platform: 'PS4',
+    clear: false,
+    fav: null,
+    date: null,
+  },
+  {
     title: 'NieR Replicant ver.1.22474487139...',
     link: 'https://www.jp.square-enix.com/nierreplicantv1p2/',
     platform: 'PS4',
