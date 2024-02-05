@@ -26,7 +26,7 @@ export const games: Game[] = [
     title: 'Ghost of Tsushima Director’s Cut',
     link: 'https://store.playstation.com/ja-jp/product/JP9000-PPSA03209_00-GHOSTDIRECTORPS5',
     platform: 'PS4',
-    clear: false,
+    clear: true,
     fav: null,
     date: null,
   },
