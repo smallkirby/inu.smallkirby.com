@@ -23,6 +23,14 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Final Fantasy VII Remake',
+    link: 'https://www.jp.square-enix.com/ffvii_remake/',
+    platform: 'PS4',
+    clear: false,
+    fav: null,
+    date: null,
+  },
+  {
     title: 'Ghost of Tsushima Director’s Cut',
     link: 'https://store.playstation.com/ja-jp/product/JP9000-PPSA03209_00-GHOSTDIRECTORPS5',
     platform: 'PS4',
