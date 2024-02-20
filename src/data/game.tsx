@@ -114,8 +114,8 @@ export const games: Game[] = [
     title: 'Sekiro: Shadows Die Twice',
     link: 'https://www.sekiro.jp/',
     platform: 'PS4',
-    clear: false,
-    fav: null,
+    clear: true,
+    fav: '!',
     date: null,
   },
   {
