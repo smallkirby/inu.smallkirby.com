@@ -23,6 +23,14 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'OCTOPATH TRAVELER II',
+    link: 'https://www.jp.square-enix.com/octopathtraveler2/',
+    platform: 'switch',
+    clear: false,
+    fav: null,
+    date: null,
+  },
+  {
     title: 'Final Fantasy VII Remake',
     link: 'https://www.jp.square-enix.com/ffvii_remake/',
     platform: 'PS4',
