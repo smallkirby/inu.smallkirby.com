@@ -58,14 +58,14 @@ export default function About() {
         <div>
           <div className="py-1 leading-8 md:py-4">
             <ul className="list-disc pl-8">
+              <li>Working in Kyoto, Japan.</li>
               <li>
-                Master&apos;s course student in
+                M.A. in
                 <NormalLink
                   href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
                   className="ml-2"
                 >
-                  the Department of Information Science and Technology at the
-                  University of Tokyo
+                  Information Science and Technology, The University of Tokyo
                 </NormalLink>
                 ,
                 <NormalLink
@@ -82,10 +82,12 @@ export default function About() {
                   </li>
                 </ul>
               </li>
-              <li>Lives in Tokyo, Japan.</li>
-              <li>Interested in Linux kernel.</li>
               <li>
-                CTF at
+                Interested in Linux kernel, hypervisor, and other low-level
+                stuff.
+              </li>
+              <li>
+                Previously played CTF at
                 <NormalLink href="https://tsg.ne.jp/" className="ml-2">
                   TSG
                 </NormalLink>
