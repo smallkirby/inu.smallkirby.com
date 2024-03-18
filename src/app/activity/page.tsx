@@ -25,6 +25,19 @@ export default function Activity() {
             <tr className="hover">
               <td>2022.04</td>
               <td>
+                Graduated from Master&apos;s program in
+                <NormalLink
+                  href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
+                  className="ml-2"
+                >
+                  Graduate School of Information Science and Technology, The
+                  University of Tokyo.
+                </NormalLink>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2022.04</td>
+              <td>
                 Enrolled in Master&apos;s program in
                 <NormalLink
                   href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
@@ -223,7 +236,7 @@ export default function Activity() {
               </td>
             </tr>
             <tr className="hover">
-              <td>2020.01-Present</td>
+              <td>2020.01-2024.03</td>
               <td>
                 Part-time job at
                 <NormalLink href="https://flatt.tech/" className="ml-2 mr-2">
