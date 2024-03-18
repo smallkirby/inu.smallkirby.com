@@ -169,6 +169,26 @@ export default function Activity() {
       <div className="divider" />
 
       <div className="mt-16">
+        <Head title="Job" emoji="👨‍💼" />
+        <table className="table table-lg mt-4">
+          <thead>
+            <tr>
+              <th>Period</th>
+              <th>Contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover">
+              <td>2024.04-Present</td>
+              <td>TBD for **CENSORED** at Kyoto.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="divider" />
+
+      <div className="mt-16">
         <Head title="Internship" emoji="👩‍💻" />
         <table className="table table-lg mt-4">
           <thead>
