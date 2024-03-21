@@ -60,7 +60,7 @@ export default function About() {
             <ul className="list-disc pl-8">
               <li>Working in Kyoto, Japan.</li>
               <li>
-                M.A. in
+                M.S. in
                 <NormalLink
                   href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
                   className="ml-2"
