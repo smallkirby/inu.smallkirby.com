@@ -26,8 +26,8 @@ export const games: Game[] = [
     title: 'OCTOPATH TRAVELER II',
     link: 'https://www.jp.square-enix.com/octopathtraveler2/',
     platform: 'switch',
-    clear: false,
-    fav: null,
+    clear: true,
+    fav: 'o',
     date: null,
   },
   {
