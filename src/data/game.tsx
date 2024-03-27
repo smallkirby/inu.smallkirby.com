@@ -18,17 +18,26 @@ export type Game = {
   platform: Platform;
   clear: boolean;
   fav: Fav;
-  date: string | null;
+  play_period?: string;
+  play_hour?: string;
 };
 
 export const games: Game[] = [
+  {
+    title: 'TRIANGLE STRATEGY',
+    link: 'https://www.jp.square-enix.com/trianglestrategy/',
+    platform: 'switch',
+    clear: false,
+    fav: null,
+  },
   {
     title: 'OCTOPATH TRAVELER II',
     link: 'https://www.jp.square-enix.com/octopathtraveler2/',
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2024.02.23-2024.03.21',
+    play_hour: '80h+',
   },
   {
     title: 'Final Fantasy VII Remake',
@@ -36,7 +45,7 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
+    play_hour: '14h',
   },
   {
     title: 'Ghost of Tsushima Director’s Cut',
@@ -44,7 +53,7 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: null,
-    date: null,
+    play_hour: '47h',
   },
   {
     title: 'NieR Replicant ver.1.22474487139...',
@@ -52,7 +61,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
   },
   {
     title: 'Hogwarts Legacy',
@@ -60,7 +68,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'レスレリアーナのアトリエ - 忘れられた錬金術と極夜の解放者',
@@ -68,7 +75,7 @@ export const games: Game[] = [
     platform: 'SP',
     clear: false,
     fav: null,
-    date: null,
+    play_hour: '10h',
   },
   {
     title: 'Genshin Impact',
@@ -76,7 +83,7 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
+    play_hour: '10h',
   },
   {
     title: "Assassin's Creed Origins",
@@ -84,7 +91,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
   },
   {
     title: '天穂のサクナヒメ',
@@ -92,7 +98,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2023.11.6-2023.11.7',
+    play_hour: '3h',
   },
   {
     title: 'Super Mario Bros. Wonder',
@@ -100,7 +107,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023,10.20-2023.12.21',
+    play_hour: '10h',
   },
   {
     title: 'イースX -NORDICSノーディクス-',
@@ -108,7 +116,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2023,10.21-2023,10.27',
+    play_hour: '30h',
   },
   {
     title: '13 Sentinels: Aegis Rim',
@@ -116,7 +125,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2023.10.16-2023.10.20',
+    play_hour: '20h',
   },
   {
     title: 'Sekiro: Shadows Die Twice',
@@ -124,7 +134,7 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: '!',
-    date: null,
+    play_hour: '80h',
   },
   {
     title: 'ARMORED CORE™ VI FIRES OF RUBICON™',
@@ -132,7 +142,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: '違う冬のぼくら',
@@ -140,7 +149,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.10.05-2023.10.06',
+    play_hour: '4h',
   },
   {
     title: 'Slay the Spire',
@@ -148,7 +158,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: 'o',
-    date: null,
+    play_period: '2023.9.30-2023.11.10',
+    play_hour: '30h',
   },
   {
     title: '牧場物語 Welcome！ワンダフルライフ',
@@ -156,7 +167,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2023.02.15-2023.11.05',
+    play_hour: '11h',
   },
   {
     title: 'ダンガンロンパ 希望の学園と絶望の高校生',
@@ -164,7 +176,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.10.11-2023.10.13',
+    play_hour: '16h',
   },
   {
     title: 'The Legend of Zelda: Tears of the Kingdom',
@@ -172,7 +185,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2023.05.13-2023.06.09',
+    play_hour: '90h+',
   },
   {
     title: 'Bayonetta 3',
@@ -180,7 +194,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.11.01-2023.12.25',
+    play_hour: '4h',
   },
   {
     title: 'Fire Emblem Engage',
@@ -188,7 +203,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.01.20-2023.10.28',
+    play_hour: '60h+',
   },
   {
     title: 'Pikmin 4',
@@ -196,7 +212,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2023.08.11-2023.08.16',
+    play_hour: '25h',
   },
   {
     title: 'Harvestella',
@@ -204,7 +221,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2023.05.02-2023.05.20',
+    play_hour: '60h+',
   },
   {
     title: 'Return to Shironagasu Island',
@@ -212,7 +230,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.01.17',
+    play_hour: '7h',
   },
   {
     title: 'Horizon Forbidden West',
@@ -220,15 +239,15 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: '!',
-    date: null,
   },
   {
     title: 'Kirby and the Forgotten Land',
     link: 'https://www.nintendo.co.jp/switch/arzga/index.html',
     platform: 'switch',
-    clear: true,
+    clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.04.15-2022.06.10',
+    play_hour: '5h',
   },
   {
     title: 'Undertale',
@@ -236,7 +255,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2021.12.06-2021.12.06',
+    play_hour: '1h',
   },
   {
     title: 'Factorio',
@@ -244,7 +264,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2022.11.05-2023.01.01',
+    play_hour: '60h+',
   },
   {
     title: 'Timelie',
@@ -252,7 +273,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2021.12.31-2022.01.01',
+    play_hour: '1h',
   },
   {
     title: 'Brigandine: The Legend of Runersia',
@@ -260,7 +282,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2021.12.12-2021.12.12',
+    play_hour: '1h',
   },
   {
     title: 'Astral Chain',
@@ -268,7 +291,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2021.10.19-2021.10.20',
+    play_hour: '5h',
   },
   {
     title: 'Xenoblade Chronicles 3',
@@ -276,7 +300,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2022.07.29-2022.08.14',
+    play_hour: '90h+',
   },
   {
     title: 'Xenoblade Chronicles 2',
@@ -284,7 +309,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.02.02-2022.02.19',
+    play_hour: '20h',
   },
   {
     title: 'GNOSIA',
@@ -292,7 +318,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2021.12.06-2023.08.20',
+    play_hour: '15h',
   },
   {
     title: '有翼のフロイライン',
@@ -300,7 +327,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2022.01.02-2022.01.02',
+    play_hour: '1h',
   },
   {
     title: 'Mario Golf: Super Rush',
@@ -308,7 +336,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2021.07.18-2022.02.06',
+    play_hour: '10h',
   },
   {
     title: 'The Witcher 3: Wild Hunt',
@@ -316,7 +345,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.02.12-2022.02.19',
+    play_hour: '5h',
   },
   {
     title: 'Hollow Knight',
@@ -324,7 +354,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2023.01.11-2023.01.11',
+    play_hour: '2h',
   },
   {
     title: 'Ender Lilies: Quietus of the Knights',
@@ -332,7 +363,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2021.07.18-2023.01.04',
+    play_hour: '25h',
   },
   {
     title: 'The DioField Chronicle',
@@ -340,7 +372,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2022.10.22-2022.11.01',
+    play_hour: '20h',
   },
   {
     title: 'Atelier Ryza 3: Alchemist of the End & the Secret Key',
@@ -348,7 +381,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.03.24-2023.04.28',
+    play_hour: '50h',
   },
   {
     title: 'Atelier Ryza 2: Lost Legends & the Secret Fairy',
@@ -356,7 +390,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.12.31-2023.02.23',
+    play_hour: '2h',
   },
   {
     title: 'Splatoon 3',
@@ -364,7 +399,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.10.14-2022.11.01',
+    play_hour: '20h',
   },
   {
     title: 'Pikmin 3 Deluxe',
@@ -372,7 +408,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2020.10.30-2023.05.01',
+    play_hour: '20h',
   },
   {
     title: 'Atelier Sophie: The Alchemist of the Mysterious Book',
@@ -380,7 +417,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.01.01-2022.01.01',
+    play_hour: '2h',
   },
   {
     title: 'OCTOPATH TRAVELER',
@@ -388,7 +426,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2021.11.19-2023.09.06',
+    play_hour: '70h+',
   },
   {
     title: 'AI: The Somnium Files – Nirvana Initiative',
@@ -396,7 +435,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2023.01.14-2023.01.17',
+    play_hour: '20h',
   },
   {
     title: 'Splatoon 2',
@@ -404,7 +444,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2018.04.14-2018.08.18',
+    play_hour: '20h',
   },
   {
     title: 'Monster Hunter XX',
@@ -412,7 +453,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2018.06.15-2019.03.03',
+    play_hour: '90h+',
   },
   {
     title: 'Persona 5 Royal',
@@ -420,7 +462,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2022.12.11-2022.12.26',
+    play_hour: '80h+',
   },
   {
     title: 'Monster Hunter Rise: Sunbreak',
@@ -428,7 +471,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2021.03.28-2023.04.07',
+    play_hour: '200h+',
   },
   {
     title: '7 Days to End with You',
@@ -436,7 +480,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2023.02.22-2023.02.23',
+    play_hour: '3h',
   },
   {
     title: 'Animal Crossing: New Horizons',
@@ -444,7 +489,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2020.03.20-2023.10.28',
+    play_hour: '80h+',
   },
   {
     title: 'Bravely Default 2',
@@ -452,7 +498,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2022.01.07-2022.01.28',
+    play_hour: '60h+',
   },
   {
     title: 'Baba Is You',
@@ -460,7 +507,6 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Civilization VI',
@@ -468,7 +514,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2020.07.27-2023.01.08',
+    play_hour: '200h+',
   },
   {
     title: 'Fire Emblem: Three Houses',
@@ -476,7 +523,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2021.11.01-2023.10.27',
+    play_hour: '300h+',
   },
   {
     title: 'Pokémon Scarlet and Violet',
@@ -484,7 +532,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2022.11.19-2022.12.10',
+    play_hour: '30h',
   },
   {
     title: 'The Legend of Zelda: Breath of the Wild',
@@ -492,7 +541,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2018.11.07-2019.03.24',
+    play_hour: '60h+',
   },
   {
     title: 'Pokémon Legends: Arceus',
@@ -500,7 +550,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: null,
-    date: null,
+    play_period: '2022.01.30-2022.02.02',
+    play_hour: '6h',
   },
   {
     title: 'Pokémon Sword and Shield',
@@ -508,7 +559,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2019.12.15-2019.12.21',
+    play_hour: '22h',
   },
   {
     title: 'Taiko no Tatsujin: Drum "n" Fun!',
@@ -516,7 +568,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    date: null,
+    play_period: '2021.08.15-2023.02.23',
+    play_hour: '25h',
   },
   {
     title: 'Paper Mario: The Origami King',
@@ -524,7 +577,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: null,
-    date: null,
+    play_period: '2020.07.21-2020.09.05',
+    play_hour: '20h',
   },
   {
     title: 'Super Smash Bros. Ultimate',
@@ -532,7 +586,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '2018.12.07-',
+    play_hour: '1600h+',
   },
   {
     title: 'Watch Dogs 2',
@@ -540,7 +595,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
   },
   {
     title: 'Horizon Zero Dawn',
@@ -548,7 +602,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Persona 5',
@@ -556,7 +609,7 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: '!',
-    date: null,
+    play_period: '80h+',
   },
   {
     title: 'Gravity Rush 2',
@@ -564,7 +617,6 @@ export const games: Game[] = [
     clear: false,
     fav: null,
     platform: 'PS4',
-    date: null,
   },
   {
     title: 'Bloodborne The Old Hunters Edition',
@@ -572,7 +624,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
   },
   {
     title: 'The Last of Us Remastered',
@@ -580,7 +631,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'NieR:Automata',
@@ -588,7 +638,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: "Uncharted 4: A Thief's End",
@@ -596,7 +645,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: "Marvel's Spider-Man",
@@ -604,7 +652,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'Monster Hunter World: Iceborne',
@@ -612,7 +659,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: false,
     fav: null,
-    date: null,
   },
   {
     title: 'Life Is Strange: Before the Storm',
@@ -620,7 +666,6 @@ export const games: Game[] = [
     platform: 'PS4',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'Monster Hunter 3',
@@ -628,7 +673,6 @@ export const games: Game[] = [
     platform: 'Wii',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'Super Robot Wars L',
@@ -636,7 +680,6 @@ export const games: Game[] = [
     platform: 'DS',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: '太鼓の達人ぽ~たぶるDX',
@@ -644,7 +687,6 @@ export const games: Game[] = [
     platform: 'PSP',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'Monster Hunter Portable 2ndG',
@@ -652,7 +694,6 @@ export const games: Game[] = [
     platform: 'PSP',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Professor Layton and the Curious Village',
@@ -660,7 +701,6 @@ export const games: Game[] = [
     clear: true,
     platform: 'DS',
     fav: null,
-    date: null,
   },
   {
     title: 'Paper Mario RPG (The Thousand-Year Door)',
@@ -668,7 +708,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: '!',
-    date: null,
   },
   {
     title: 'Doshin the Giant',
@@ -676,7 +715,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Pikmin 2',
@@ -684,7 +722,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: null,
-    date: null,
   },
   {
     title: 'Pikmin',
@@ -692,7 +729,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'GiFTPiA',
@@ -700,7 +736,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Mario Kart ~ Double Dash!!',
@@ -708,7 +743,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Kirby Air Ride',
@@ -716,7 +750,6 @@ export const games: Game[] = [
     platform: 'GC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Pokémon Emerald',
@@ -724,7 +757,6 @@ export const games: Game[] = [
     platform: 'GBA',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Pokémon Gold and Silver',
@@ -732,7 +764,6 @@ export const games: Game[] = [
     platform: 'GBC',
     clear: true,
     fav: 'o',
-    date: null,
   },
   {
     title: 'Virtua Fighter',
@@ -740,6 +771,5 @@ export const games: Game[] = [
     platform: 'SS',
     clear: false,
     fav: null,
-    date: null,
   },
 ];

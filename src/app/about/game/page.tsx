@@ -29,7 +29,8 @@ function GameRow({ game }: { game: Game }) {
           <span />
         )}
       </td>
-      <td>{game.date}</td>
+      <td className="text-xs">{game.play_period || ''}</td>
+      <td className="text-xs">{game.play_hour || ''}</td>
     </tr>
   );
 }
@@ -48,14 +49,15 @@ export default function GamePage() {
           =love
         </span>
       </div>
-      <table className="table table-lg">
+      <table className="table table-sm">
         <thead>
           <tr>
             <th>Title</th>
             <th>Platform</th>
             <th>Clear</th>
             <th>Fav</th>
-            <th>Date</th>
+            <th>Period</th>
+            <th>Total</th>
           </tr>
         </thead>
 
