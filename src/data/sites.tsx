@@ -3,6 +3,7 @@ export type SiteData = {
   url: string;
   source: string;
   description: string;
+  deprecated?: boolean;
 };
 
 export const siteData: SiteData[] = [
@@ -23,6 +24,7 @@ export const siteData: SiteData[] = [
     url: 'https://wywiwya.smallkirby.xyz',
     source: 'https://github.com/smallkirby/wywiwya',
     description: 'Markdown diary service.',
+    deprecated: true,
   },
   {
     title: 'P3LAND',
@@ -35,11 +37,13 @@ export const siteData: SiteData[] = [
     url: 'https://task-smallkirby-xyz.fly.dev/',
     source: 'https://github.com/smallkirby/task.smallkirby.xyz',
     description: 'Task management service.',
+    deprecated: true,
   },
   {
     title: 'Old HP',
     url: 'https://old.smallkirby.com',
     source: 'https://github.com/smallkirby/smallkirby.xyz.jsx',
     description: 'My old portfolio site.',
+    deprecated: true,
   },
 ];

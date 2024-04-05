@@ -7,7 +7,11 @@ function SiteEntry({ site }: { site: SiteData }) {
     <tr className="hover">
       <td>
         <a href={site.url} target="_blank" className="text-gv-aqua1 underline">
-          {site.title}
+          {site.deprecated ? (
+            <span className="line-through opacity-50">{site.title}</span>
+          ) : (
+            <span className="">{site.title}</span>
+          )}
         </a>
       </td>
       <td>
