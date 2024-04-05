@@ -12,97 +12,19 @@ function Head({ title, emoji }: { title: string; emoji: string }) {
 export default function Activity() {
   return (
     <div>
-      <div className="mt-4">
-        <Head title="Education" emoji="🎓" />
+      <div className="mt-16">
+        <Head title="Job" emoji="👨‍💼" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
-              <th>Date</th>
+              <th>Period</th>
               <th>Contents</th>
             </tr>
           </thead>
           <tbody>
             <tr className="hover">
-              <td>2022.04</td>
-              <td>
-                Graduated from Master&apos;s program in
-                <NormalLink
-                  href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
-                  className="ml-2"
-                >
-                  Graduate School of Information Science and Technology, The
-                  University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2022.04</td>
-              <td>
-                Enrolled in Master&apos;s program in
-                <NormalLink
-                  href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
-                  className="ml-2"
-                >
-                  Graduate School of Information Science and Technology, The
-                  University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2022.03</td>
-              <td>
-                Graduated from Bachelor&apos;s program in
-                <NormalLink
-                  href="https://www.ee.t.u-tokyo.ac.jp/en/"
-                  className="ml-2"
-                >
-                  department of Electrical and Electronic Engineering, The
-                  University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2020.04</td>
-              <td>
-                Enrolled in Bachelor&apos;s program in
-                <NormalLink
-                  href="https://www.ee.t.u-tokyo.ac.jp/en/"
-                  className="ml-2"
-                >
-                  department of Electrical and Electronic Engineering, The
-                  University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2020.03</td>
-              <td>
-                Graduated from
-                <NormalLink
-                  href="https://www.u-tokyo.ac.jp/en/academics/cas.html"
-                  className="ml-2"
-                >
-                  College of Arts and Sciences (Junior Division, Natural
-                  Sciences I), The University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2018.04</td>
-              <td>
-                Enrolled in
-                <NormalLink
-                  href="https://www.u-tokyo.ac.jp/en/academics/cas.html"
-                  className="ml-2"
-                >
-                  College of Arts and Sciences (Junior Division, Natural
-                  Sciences I), The University of Tokyo.
-                </NormalLink>
-              </td>
-            </tr>
-            <tr className="hover">
-              <td>2017.03</td>
-              <td>Graduated from Asaka High School, Fukushima Prefecture.</td>
+              <td>2024.04-Present</td>
+              <td>TBD for **CENSORED** at Kyoto.</td>
             </tr>
           </tbody>
         </table>
@@ -168,19 +90,58 @@ export default function Activity() {
 
       <div className="divider" />
 
-      <div className="mt-16">
-        <Head title="Job" emoji="👨‍💼" />
+      <div className="mt-4">
+        <Head title="Education" emoji="🎓" />
         <table className="table table-lg mt-4">
           <thead>
             <tr>
-              <th>Period</th>
+              <th>Date</th>
               <th>Contents</th>
             </tr>
           </thead>
           <tbody>
             <tr className="hover">
-              <td>2024.04-Present</td>
-              <td>TBD for **CENSORED** at Kyoto.</td>
+              <td>2022.04</td>
+              <td>
+                Graduated from Master&apos;s program in
+                <NormalLink
+                  href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
+                  className="ml-2"
+                >
+                  Graduate School of Information Science and Technology, The
+                  University of Tokyo.
+                </NormalLink>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2022.03</td>
+              <td>
+                Graduated from Bachelor&apos;s program in
+                <NormalLink
+                  href="https://www.ee.t.u-tokyo.ac.jp/en/"
+                  className="ml-2"
+                >
+                  department of Electrical and Electronic Engineering, The
+                  University of Tokyo.
+                </NormalLink>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2018.04</td>
+              <td>
+                Enrolled in
+                <NormalLink
+                  href="https://www.u-tokyo.ac.jp/en/academics/cas.html"
+                  className="ml-2"
+                >
+                  College of Arts and Sciences (Junior Division, Natural
+                  Sciences I), The University of Tokyo.
+                </NormalLink>
+              </td>
+            </tr>
+            <tr className="hover">
+              <td>2017.03</td>
+              <td>Graduated from Asaka High School, Fukushima Prefecture.</td>
             </tr>
           </tbody>
         </table>
