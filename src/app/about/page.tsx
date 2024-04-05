@@ -60,12 +60,13 @@ export default function About() {
             <ul className="list-disc pl-8">
               <li>Working in Kyoto, Japan.</li>
               <li>
-                M.S. in
+                Master&apos;s degree from
                 <NormalLink
                   href="https://www.i.u-tokyo.ac.jp/index_e.shtml"
                   className="ml-2"
                 >
-                  Information Science and Technology, The University of Tokyo
+                  Graduate School of Information Science and Technology at The
+                  University of Tokyo
                 </NormalLink>
                 ,
                 <NormalLink
