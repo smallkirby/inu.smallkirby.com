@@ -89,6 +89,13 @@ export const machines: Gadget[] = [
 
 export const keyboards: Gadget[] = [
   {
+    name: 'gray',
+    spec: 'Corne Cherry V4. Kailh Midnight Silent V2 Switch Linear.',
+    since: '2024',
+    to: 'Present',
+    link: 'https://shop.yushakobo.jp/products/8961',
+  },
+  {
     name: 'corne',
     spec: 'Corne Cherry V3',
     since: '2021',
