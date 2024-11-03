@@ -10,7 +10,7 @@ Next.js + Tailwind(w/ DaisyUI), deployed on Cloudflare Pages.
 
 ```bash
 npm ci
-npm dev
+npm run dev
 ```
 
 CFPages watches the `master` branch and deploys it automatically.
