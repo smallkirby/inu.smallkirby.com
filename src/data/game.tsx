@@ -25,6 +25,15 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Astro Bot',
+    link: 'https://www.playstation.com/en-us/games/astro-bot/',
+    platform: 'PS5',
+    clear: true,
+    fav: 'o',
+    play_hour: '17h',
+    play_period: '2024.12.14-2024.12.31',
+  },
+  {
     title: 'No Case Should Remain Unsolved',
     link: 'https://playism.com/en/game/ncsru/',
     platform: 'switch',
@@ -279,7 +288,7 @@ export const games: Game[] = [
     platform: 'switch',
     clear: false,
     fav: 'o',
-    play_period: '2023.9.30-2023.11.10',
+    play_period: '2023.9.30-2024.12.31',
     play_hour: '30h',
   },
   {
@@ -592,8 +601,8 @@ export const games: Game[] = [
     platform: 'switch',
     clear: true,
     fav: 'o',
-    play_period: '2021.03.28-2023.04.07',
-    play_hour: '200h+',
+    play_period: '2021.03.28-2024.12.31',
+    play_hour: '250h+',
   },
   {
     title: '7 Days to End with You',
