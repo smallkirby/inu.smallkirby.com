@@ -14,6 +14,13 @@ export const siteData: SiteData[] = [
     description: 'This site. HP of smallkirby.',
   },
   {
+    title: 'Writing Hypervisor in Zig',
+    url: 'https://hv.smallkirby.com',
+    source: 'https://github.com/smallkirby/writing-hypervisor-in-zig',
+    description:
+      'Writing Type-1 Hypervisor in Zig from scratch. Blog series in Japanese.',
+  },
+  {
     title: 'workman',
     url: 'https://workman.smallkirby.com',
     source: 'https://github.com/smallkirby/workman.smallkirby.xyz',

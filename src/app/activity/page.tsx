@@ -331,6 +331,20 @@ export default function Activity() {
           </thead>
           <tbody>
             <tr className="hover">
+              <td>2024.12</td>
+              <td>
+                <p>
+                  <NormalLink
+                    href="https://hv.smallkirby.com/"
+                    className="mr-2"
+                  >
+                    Writing Hypervisor in Zig
+                  </NormalLink>
+                </p>
+                <p>smallkirby.</p>
+              </td>
+            </tr>
+            <tr className="hover">
               <td>2022.11</td>
               <td>
                 <p>
