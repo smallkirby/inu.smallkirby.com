@@ -25,6 +25,42 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Ender Magnolia: Bloom in the Mist',
+    link: 'https://www.endermagnolia.com/en/',
+    platform: 'switch',
+    clear: true,
+    fav: 'o',
+    play_hour: '20h',
+    play_period: '2025.01.25-2025.02.01',
+  },
+  {
+    title: 'Omori',
+    link: 'https://www.omori-game.com/',
+    platform: 'switch',
+    clear: true,
+    fav: null,
+    play_hour: '20h',
+    play_period: '2025.01.19-2025.01.25',
+  },
+  {
+    title: 'Emio – The Smiling Man: Famicom Detective Club',
+    link: 'https://www.nintendo.com/jp/switch/a7lqa/index.html',
+    platform: 'switch',
+    clear: true,
+    fav: null,
+    play_hour: '5h',
+    play_period: '2024.11.10-2024.12.08',
+  },
+  {
+    title: 'Dragon Quest III:The Seeds of Salvation',
+    link: 'https://www.dragonquest.jp/roto-trilogy/dq3/',
+    platform: 'switch',
+    clear: true,
+    fav: null,
+    play_hour: '50h',
+    play_period: '2024.11.16-2024.12.06',
+  },
+  {
     title: 'Astro Bot',
     link: 'https://www.playstation.com/en-us/games/astro-bot/',
     platform: 'PS5',
