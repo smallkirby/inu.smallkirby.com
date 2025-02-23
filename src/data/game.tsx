@@ -25,6 +25,15 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Tales of Arise',
+    link: 'https://toarise.tales-ch.jp/',
+    platform: 'PS5',
+    clear: true,
+    fav: null,
+    play_hour: '30h',
+    play_period: '2025.02.09-2025.02.22',
+  },
+  {
     title: 'Ender Magnolia: Bloom in the Mist',
     link: 'https://www.endermagnolia.com/en/',
     platform: 'switch',
