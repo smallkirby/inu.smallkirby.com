@@ -31,7 +31,7 @@ export default function Header() {
               <summary>
                 <MenuIcon />
               </summary>
-              <ul className="right-1 z-40 !mt-0 rounded-sm bg-gv-bg0h pt-0 text-left">
+              <ul className="right-1 z-40 mt-0! rounded-xs bg-gv-bg0h pt-0 text-left">
                 <li>
                   <a href="/" className="underline">
                     Home
