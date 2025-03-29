@@ -41,5 +41,8 @@ jobs:
       - name: ✏️ Run linter
         run: npm run lint
 
+      - name: 🧪 Run tests
+        run: npm run test:e2e
+
       - name: 💚 Generate build
         run: npm run build
