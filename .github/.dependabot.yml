@@ -1,12 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: 'weekly'
-    reviewers:
-      - 'smallkirby'
+      interval: "daily"
+    labels:
+      - "dependencies"
     groups:
       all:
         pattern:
-          - '*'
+          - "*"
