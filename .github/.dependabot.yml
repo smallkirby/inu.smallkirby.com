@@ -7,6 +7,16 @@ updates:
     labels:
       - "dependencies"
     groups:
-      all:
-        pattern:
+      react-next:
+        dependency-type: production
+        patterns:
+          - "react"
+          - "next"
+      dev-dependencies:
+        dependency-type: production
+        patterns:
+          - "*"
+      prod-dependencies:
+        dependency-type: production
+        patterns:
           - "*"
