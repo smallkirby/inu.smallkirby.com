@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: 🛎 Checkout
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4
 
       - name: 🏗 Setup node.js
         uses: actions/setup-node@v3.7.0
@@ -28,7 +28,7 @@ jobs:
           check-latest: true
 
       - name: 📦 Cache node_modules
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
