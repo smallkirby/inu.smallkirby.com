@@ -1,7 +1,7 @@
 import '@/app/globals.css';
+import type { Metadata } from 'next';
 import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
-import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'smallkirby',

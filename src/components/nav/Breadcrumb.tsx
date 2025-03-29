@@ -6,9 +6,9 @@ export default function Breadcrumb() {
   return (
     <div className="breadcrumbs text-xs md:text-sm">
       <ul>
-        {crumbs.map((crumb, index) => {
+        {crumbs.map((crumb) => {
           return (
-            <li key={index} className="flex items-center">
+            <li key={crumb.id} className="flex items-center">
               {crumb.icon && (
                 <div className="py-auto my-auto pr-1">{crumb.icon}</div>
               )}

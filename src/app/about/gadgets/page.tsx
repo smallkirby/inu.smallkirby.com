@@ -1,5 +1,5 @@
 import type { Gadget } from '@/data/gadgets';
-import { machines, keyboards } from '@/data/gadgets';
+import { keyboards, machines } from '@/data/gadgets';
 
 function MachineRow({ machine }: { machine: Gadget }) {
   return (
@@ -10,6 +10,7 @@ function MachineRow({ machine }: { machine: Gadget }) {
             href={machine.link}
             target="_blank"
             className="text-gv-aqua1 underline"
+            rel="noreferrer"
           >
             {machine.name}
           </a>
@@ -43,6 +44,7 @@ function KeyboardRow({ keyboard }: { keyboard: Gadget }) {
             className="text-gv-aqua1 underline"
             target="_blank"
             href={keyboard.link}
+            rel="noreferrer"
           >
             {keyboard.spec}
           </a>
@@ -73,7 +75,7 @@ export default function GadgetPage() {
           <tbody>
             {machines
               .sort((a, b) =>
-                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0,
               )
               .map((machine) => (
                 <MachineRow key={machine.name} machine={machine} />
@@ -95,7 +97,7 @@ export default function GadgetPage() {
           <tbody>
             {keyboards
               .sort((a, b) =>
-                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0,
               )
               .map((machine) => (
                 <KeyboardRow key={machine.name} keyboard={machine} />

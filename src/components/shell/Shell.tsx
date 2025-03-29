@@ -102,6 +102,7 @@ export default function Shell() {
               href="https://github.com/smallkirby/inu.smallkirby.com"
               target="_blank"
               className="underline hover:text-gv-aqua2"
+              rel="noreferrer"
             >
               Improve this page at GitHub.
             </a>

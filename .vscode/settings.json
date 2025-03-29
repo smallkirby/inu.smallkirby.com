@@ -1,9 +1,4 @@
 {
   "editor.formatOnSave": true,
-  "prettier.configPath": ".prettierrc.js",
-  "prettier.jsxSingleQuote": true,
-  "prettier.printWidth": 120,
-  "editor.rulers": [120],
-  "prettier.prettierPath": "./node_modules/prettier/index.cjs",
-  "prettier.requireConfig": true
+  "editor.rulers": [120]
 }

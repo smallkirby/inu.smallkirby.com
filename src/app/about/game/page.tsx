@@ -1,6 +1,6 @@
+import { Favorite, Grade } from '@mui/icons-material';
 import type { Game } from '@/data/game';
 import { games } from '@/data/game';
-import { Favorite, Grade } from '@mui/icons-material';
 
 function GameRow({ game }: { game: Game }) {
   return (
@@ -11,6 +11,7 @@ function GameRow({ game }: { game: Game }) {
             href={game.link}
             target="_blank"
             className="text-gv-aqua1 underline"
+            rel="noreferrer"
           >
             {game.title}
           </a>

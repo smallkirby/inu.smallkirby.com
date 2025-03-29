@@ -1,9 +1,9 @@
 'use client';
 
-import { Link, MenuBook, Info, Public } from '@mui/icons-material';
+import { Info, Link, MenuBook, Public } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
-import Breadcrumb from '@/components/nav/Breadcrumb';
 import MenuIcon from '@mui/icons-material/Menu';
+import Breadcrumb from '@/components/nav/Breadcrumb';
 
 function IconButton(props: { icon: React.ReactNode; link: string }) {
   return (

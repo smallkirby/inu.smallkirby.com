@@ -1,6 +1,6 @@
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Image from 'next/image';
 import NormalLink from '@/components/common/NormalLink';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 function LikeCard({
   title,

@@ -16,6 +16,7 @@ export default function LinkPage() {
                 href="https://github.com/smallkirby"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 smallkirby
               </a>
@@ -28,6 +29,7 @@ export default function LinkPage() {
                 href="https://gitlab.com/smallkirby"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 smallkirby
               </a>
@@ -41,6 +43,7 @@ export default function LinkPage() {
                 href="https://twitter.com/smallkirby"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 @smallkirby
               </a>
@@ -53,6 +56,7 @@ export default function LinkPage() {
                 href="https://bsky.app/profile/smallkirby.bsky.social"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 @smallkirby.bsky.social
               </a>
@@ -65,6 +69,7 @@ export default function LinkPage() {
                 href="https://misskey.io/@smallkirby"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 @smallkirby@misskey.io
               </a>
@@ -78,6 +83,7 @@ export default function LinkPage() {
                 href="https://profile.hatena.ne.jp/smallkirby/"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 id:smallkirby
               </a>
@@ -90,6 +96,7 @@ export default function LinkPage() {
                 href="https://qiita.com/smallkirby"
                 target="_blank"
                 className="text-gv-aqua1 underline"
+                rel="noreferrer"
               >
                 @smallkirby
               </a>

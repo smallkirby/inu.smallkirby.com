@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import RateReviewIcon from '@mui/icons-material/RateReview';
+import Image from 'next/image';
 import Shell from '@/components/shell/Shell';
 
 export default function Home() {

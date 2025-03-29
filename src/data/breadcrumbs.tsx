@@ -1,14 +1,14 @@
-import { BreadcrumbType } from '@/types/breadcrumb';
 import {
+  Dvr,
   Info,
   Link,
   MenuBook,
-  Public,
   PrecisionManufacturing,
+  Public,
   VideogameAsset,
-  Dvr,
 } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
+import { BreadcrumbType } from '@/types/breadcrumb';
 
 export const breadCrumbList: BreadcrumbType[] = [
   {

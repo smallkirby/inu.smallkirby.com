@@ -12,6 +12,7 @@ export default function NormalLink({
       className={'text-gv-blue2 underline ' + className}
       href={href}
       target="_blank"
+      rel="noreferrer"
     >
       {children}
     </a>

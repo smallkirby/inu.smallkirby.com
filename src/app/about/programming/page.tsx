@@ -1,6 +1,6 @@
-import type { Language, Level } from '@/data/languages';
-import { languages, webs, services } from '@/data/languages';
 import { Favorite, Grade, ThumbDownAlt } from '@mui/icons-material';
+import type { Language, Level } from '@/data/languages';
+import { languages, services, webs } from '@/data/languages';
 
 const getIcon = (lv: Level) => {
   if (lv === 'o') {
@@ -44,7 +44,7 @@ export default function ProgrammingPage() {
           <tbody>
             {languages
               .sort((a, b) =>
-                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0,
               )
               .map((language) => (
                 <LanguageRow key={language.name} language={language} />
@@ -67,7 +67,7 @@ export default function ProgrammingPage() {
           <tbody>
             {webs
               .sort((a, b) =>
-                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0,
               )
               .map((language) => (
                 <LanguageRow key={language.name} language={language} />
@@ -90,7 +90,7 @@ export default function ProgrammingPage() {
           <tbody>
             {services
               .sort((a, b) =>
-                a.since > b.since ? -1 : a.since < b.since ? 1 : 0
+                a.since > b.since ? -1 : a.since < b.since ? 1 : 0,
               )
               .map((language) => (
                 <LanguageRow key={language.name} language={language} />
