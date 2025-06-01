@@ -1,6 +1,7 @@
 type Fav = null | 'o' | '!';
 type Platform =
   | 'SP'
+  | 'switch2'
   | 'switch'
   | 'PS5'
   | 'PS4'
@@ -24,6 +25,33 @@ export type Game = {
 };
 
 export const games: Game[] = [
+  {
+    title: 'Far Cry 6',
+    link: 'https://www.ubisoft.com/en-gb/game/far-cry/far-cry-6',
+    platform: 'PS5',
+    clear: false,
+    fav: null,
+    play_hour: '2h',
+    play_period: '2025.05',
+  },
+  {
+    title: 'Clair Obscur: Expedition 33',
+    link: 'https://www.expedition33.com/',
+    platform: 'PS5',
+    clear: true,
+    fav: '!',
+    play_hour: '61h',
+    play_period: '2025.05',
+  },
+  {
+    title: 'DORAEMON STORY OF SEASONS: Friends of the Great Kingdom',
+    link: 'https://www.nintendo.com/us/store/products/doraemon-story-of-seasons-friends-of-the-great-kingdom-switch',
+    platform: 'switch',
+    clear: true,
+    fav: null,
+    play_hour: '40h',
+    play_period: '2025.04.20-2025.05.08',
+  },
   {
     title: 'Enjoy the Diner',
     link: 'https://www.wakuwakugames.com/enjoythediner',
