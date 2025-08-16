@@ -26,6 +26,15 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Bravely Default: Flying Fairy HD Remaster',
+    link: 'https://www.jp.square-enix.com/bdffhd/',
+    platform: 'switch2',
+    clear: true,
+    fav: null,
+    play_hour: '50h+',
+    play_period: '2025.08.02-2025.08.13',
+  },
+  {
     title: 'Donkey Kong Bananza',
     link: 'https://www.nintendo.com/jp/games/switch2/aaaca/index.html',
     platform: 'switch2',
