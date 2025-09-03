@@ -8,7 +8,7 @@ import {
   VideogameAsset,
 } from '@mui/icons-material';
 import HomeIcon from '@mui/icons-material/Home';
-import { BreadcrumbType } from '@/types/breadcrumb';
+import type { BreadcrumbType } from '@/types/breadcrumb';
 
 export const breadCrumbList: BreadcrumbType[] = [
   {

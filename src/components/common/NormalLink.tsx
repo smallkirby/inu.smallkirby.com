@@ -9,7 +9,7 @@ export default function NormalLink({
 }) {
   return (
     <a
-      className={'text-gv-blue2 underline ' + className}
+      className={`text-gv-blue2 underline ${className}`}
       href={href}
       target="_blank"
       rel="noreferrer"

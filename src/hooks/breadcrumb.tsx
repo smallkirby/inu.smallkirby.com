@@ -1,7 +1,7 @@
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { breadCrumbList } from '@/data/breadcrumbs';
-import { BreadcrumbType } from '@/types/breadcrumb';
+import type { BreadcrumbType } from '@/types/breadcrumb';
 
 export default function useBreadcrumb() {
   const url = usePathname();
