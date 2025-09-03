@@ -2,7 +2,9 @@
   "name": "inu.smallkirby.com",
   "version": "0.1.0",
   "private": true,
-  "engine": "20",
+  "engine": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
