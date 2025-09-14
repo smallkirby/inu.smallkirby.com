@@ -26,6 +26,42 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: '伊達鍵は眠らない - From AI：ソムニウムファイル',
+    link: 'https://www.spike-chunsoft.co.jp/pages/datekaname/',
+    platform: 'switch2',
+    clear: true,
+    fav: null,
+    play_hour: '12h',
+    play_period: '2025.09.10-2025.09.14',
+  },
+  {
+    title: 'Outer Wilds',
+    link: 'https://store.steampowered.com/app/753640/Outer_Wilds/',
+    platform: 'switch2',
+    clear: true,
+    fav: 'o',
+    play_hour: '19h',
+    play_period: '2025.09.03-2025.09.10',
+  },
+  {
+    title: 'PATAPON 1+2 REPLAY',
+    link: 'https://patapon-replay.bn-ent.net/',
+    platform: 'switch2',
+    clear: false,
+    fav: null,
+    play_hour: '4h',
+    play_period: '2025.09.02-2025.09.03',
+  },
+  {
+    title: 'FANTASY LIFE i: The Girl Who Steals Time',
+    link: 'https://www.fantasylife.jp/fli/en/',
+    platform: 'switch2',
+    clear: true,
+    fav: null,
+    play_hour: '40h+',
+    play_period: '2025.08.13-2025.08.31',
+  },
+  {
     title: 'Bravely Default: Flying Fairy HD Remaster',
     link: 'https://www.jp.square-enix.com/bdffhd/',
     platform: 'switch2',
