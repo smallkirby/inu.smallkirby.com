@@ -26,6 +26,42 @@ export type Game = {
 
 export const games: Game[] = [
   {
+    title: 'Pokémon Legends: Z-A',
+    link: 'https://legends.pokemon.com/en-us',
+    platform: 'switch2',
+    clear: true,
+    fav: null,
+    play_hour: '20h+',
+    play_period: '2025.10.22-2025.11.02',
+  },
+  {
+    title: 'Romancing SaGa 2: Revenge of the Seven',
+    link: 'https://saga-franchise.square-enix-games.com/en-us/games/romancing-saga-2-revenge-of-the-seven',
+    platform: 'switch2',
+    clear: true,
+    fav: 'o',
+    play_hour: '50h+',
+    play_period: '2025.10.10-2025.10.22',
+  },
+  {
+    title: '世界樹の迷宮Ⅰ HD REMASTER',
+    link: 'https://sq-atlus.jp/sq123/',
+    platform: 'switch2',
+    clear: true,
+    fav: null,
+    play_hour: '30h+',
+    play_period: '2025.09.19-2025.10.08',
+  },
+  {
+    title: 'Prince of Persia: The Lost Crown',
+    link: 'https://www.ubisoft.com/en-gb/game/prince-of-persia/the-lost-crown',
+    platform: 'switch2',
+    clear: false,
+    fav: null,
+    play_hour: '6h',
+    play_period: '2025.09.14-2025.09.18',
+  },
+  {
     title: '伊達鍵は眠らない - From AI：ソムニウムファイル',
     link: 'https://www.spike-chunsoft.co.jp/pages/datekaname/',
     platform: 'switch2',
