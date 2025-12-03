@@ -24,7 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "common-tags": "^1.8.2",
-    "next": "^15.5.2",
+    "next": "^15.5.7",
     "react": "^19",
     "react-dom": "^19",
     "tailwindcss": "^4.1.12",
