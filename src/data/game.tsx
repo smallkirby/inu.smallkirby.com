@@ -26,12 +26,12 @@ export type Game = {
 
 export const games: Game[] = [
     {
-    title: 'Death Stranding Director\'s Cut',
+    title: "Death Stranding Director's Cut",
     link: 'https://www.playstation.com/ja-jp/games/death-stranding/',
     platform: 'PS5',
     clear: true,
     fav: null,
-    play_hour: '5h',
+    play_hour: '45h',
     play_period: '2025.05.31-2026.05.15',
   },
   {
@@ -76,7 +76,7 @@ export const games: Game[] = [
     platform: 'switch2',
     clear: false,
     fav: null,
-    play_hour: '45h',
+    play_hour: '5h',
     play_period: '2025.11.20',
   },
   {
