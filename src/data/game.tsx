@@ -25,7 +25,7 @@ export type Game = {
 };
 
 export const games: Game[] = [
-    {
+  {
     title: "Death Stranding Director's Cut",
     link: 'https://www.playstation.com/ja-jp/games/death-stranding/',
     platform: 'PS5',
